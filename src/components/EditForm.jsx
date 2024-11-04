@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { doc, getDoc, updateDoc } from 'firebase/firestore'
-import db from '../firebase/appConfig'
+import firebaseServices from '../firebase/appConfig';
+const { db } = firebaseServices;
+
 import { useForm } from 'react-hook-form'
 
 export default function EditForm() {

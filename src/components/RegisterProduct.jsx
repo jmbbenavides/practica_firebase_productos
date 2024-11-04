@@ -20,6 +20,7 @@ export default function RegisterProduct() {
     //metodo para guardar un producto
     const saveProduct = async (data) => {
         console.log("Se ha guardado");
+        alert("Resgistro aguardado")
         console.log(data); //{ name: cebolla, description: cebollas moradas }
         
         //conectarnos a la bd y guardamos un documento

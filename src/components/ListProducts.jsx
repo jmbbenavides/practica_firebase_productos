@@ -1,9 +1,9 @@
 import { collection, deleteDoc, doc, onSnapshot } from 'firebase/firestore'
 import React, { useEffect, useState } from 'react'
-import firebaseServices from '../firebase/appConfig'; 
+import firebaseServices from '../firebase/appConfig';
 const { db } = firebaseServices;
 import { Link } from 'react-router-dom'
-import Swal from 'sweetalert2'
+
 
 export default function ListProducts() {
     //declaramos un estado para la lista de productos
