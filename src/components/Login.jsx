@@ -1,7 +1,7 @@
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import React from 'react'
 import { useForm } from 'react-hook-form'
-import firebaseServices from '../../firebase/appConfig'
+import firebaseServices from '../firebase/appConfig'
 import Swal from 'sweetalert2';
 const { db, auth_user } = firebaseServices;
 
