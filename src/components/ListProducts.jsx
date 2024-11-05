@@ -52,7 +52,7 @@ export default function ListProducts() {
         }
     };
     
-    // Agregar estilos CSS para el texto blanco
+
     const style = document.createElement('style');
     style.innerHTML = `
       .custom-swal-popup {
